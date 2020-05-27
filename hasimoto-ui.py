@@ -22,7 +22,7 @@ btn.place(x=162, y=17)
 l2 = tk.LabelFrame(root,text="掲載番号",width = 216 , height = 49 )
 l2.pack()
 
-OptionList = ["案件１","案件2","案件3","案件4"] 
+OptionList = ["案件1","案件2","案件3","案件4"] 
 
 variable = tk.StringVar(root)
 variable.set(OptionList[0])
