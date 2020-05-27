@@ -74,7 +74,7 @@ l8.pack()
 txt7 = tk.Entry(l8,width=35)
 txt7.pack()
 
-OptionList1 = ["検索条件１","検索条件2","検索条件3","検索条件4"] 
+OptionList1 = ["検索条件1","検索条件2","検索条件3","検索条件4"] 
 
 variable1 = tk.StringVar(root)
 variable1.set(OptionList1[0])
