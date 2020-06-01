@@ -10,7 +10,6 @@ root.geometry("290x650")
 l1 = tk.LabelFrame(root,text="spread sheet url",width = 217 , height = 45 )
 l1.pack()
 
-
 txt1 = tk.Entry(width=20)
 txt1.place(x = 38, y = 20)
 
@@ -71,18 +70,14 @@ txt6.pack()
 l8 = tk.LabelFrame(root, text="検索条件", width = 217 , height = 63 , relief="groove")
 l8.pack()
 
-txt7 = tk.Entry(l8,width=35)
+variable1 = tk.StringVar(root)
+txt7 = tk.Entry(l8,textvariable = variable1 , width=35)
 txt7.pack()
 
 OptionList1 = ["検索条件１","検索条件2","検索条件3","検索条件4"] 
-
-variable1 = tk.StringVar(root)
-variable1.set(OptionList1[0])
-
 opt1 = tk.OptionMenu(l8, variable1,*OptionList1)
 opt1.config(width=28)
 opt1.pack()
-
 
 #年齢下限
 l9 = tk.LabelFrame(root, text="年齢下限",width = 217, height = 39 ,relief="groove")
