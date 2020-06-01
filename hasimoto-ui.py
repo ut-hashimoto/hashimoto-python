@@ -74,15 +74,7 @@ variable1 = tk.StringVar(root)
 txt7 = tk.Entry(l8,textvariable = variable1 , width=35)
 txt7.pack()
 
-<<<<<<< HEAD
 OptionList1 = ["検索条件１","検索条件2","検索条件3","検索条件4"] 
-=======
-OptionList1 = ["検索条件1","検索条件2","検索条件3","検索条件4"] 
-
-variable1 = tk.StringVar(root)
-variable1.set(OptionList1[0])
-
->>>>>>> e6ae9ff598ff88649c4bf9d7d5dcf7c8819bad1f
 opt1 = tk.OptionMenu(l8, variable1,*OptionList1)
 opt1.config(width=28)
 opt1.pack()
