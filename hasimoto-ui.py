@@ -1,5 +1,4 @@
 import tkinter as tk
-
 root = tk.Tk()
 
 #窓枠
